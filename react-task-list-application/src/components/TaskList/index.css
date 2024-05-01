@@ -1,0 +1,241 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.task-list-application {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  min-height: 100vh;
+  height: auto;
+  align-items: center;
+  background-color: #bf80ff;
+ 
+}
+
+.task-list-heading {
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 35px;
+  color: #00004d;
+  padding: 10px 0px;
+  margin: 0px 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.todo-list-icon {
+  color: #00004d;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.task-list-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.task-input-form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  width: 95%;
+}
+
+.input-title-container {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-input {
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 6px;
+  outline: none;
+  font-size: 15px;
+  color: #030324;
+  padding: 10px;
+  border: 1px solid #dbe9f6;
+  box-shadow: -3px 0px 4px #ffffff;
+  font-weight: 500;
+  font-family: "Nunito";
+  overflow: auto;
+}
+
+.input-description-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #dbe9f6;
+  border-radius: 6px;
+  outline: none;
+  font-size: 15px;
+  color: #030324;
+  padding: 10px;
+  font-weight: 500;
+  font-family: "Nunito";
+  padding: 10px;
+  box-shadow: -3px 0px 4px #ffffff;
+}
+
+.status-input-container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #dbe9f6;
+  outline: none;
+  font-size: 13px;
+  color: #585860;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: -3px 0px 4px #ffffff;
+}
+
+option {
+  font-family: "Nunito";
+  color: #585860;
+  font-weight: 500;
+}
+
+.due-date-input-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-text {
+  font-size: 14px;
+  padding: 0px 0px 5px 0px;
+  font-family: "Nunito";
+  margin: 0px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.error-msg {
+  font-size: 14px;
+  font-size: 14px;
+  padding: 7px 30px;
+  font-family: "Nunito";
+  margin: 0px;
+  color: #c21a1a;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.date-input {
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 6px;
+  outline: none;
+  font-size: 13px;
+  color: #585860;
+  padding: 10px;
+  border: 1px solid #dbe9f6;
+  font-weight: 700;
+  font-family: "Nunito";
+  box-shadow: -3px 0px 4px #ffffff;
+}
+
+.create-task-btn {
+  height: 50px;
+  width: 25%;
+  cursor: pointer;
+  border-radius: 6px;
+  outline: none;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Nunito";
+  border: 0px;
+  color: #030324;
+  background-color: #ccff66;
+  cursor: pointer;
+  margin: 24px 0px 0px 0px;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+
+@media screen and (max-width: 768px) {
+  .title-input,
+  .date-input,
+  .create-task-btn {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .task-list-heading,
+  .todo-list-icon {
+    font-size: 24px;
+  }
+  .task-input-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-title-container,
+  .input-description-container {
+    width: 90%;
+  }
+
+  .label-text {
+    padding: 10px 0px 5px 0px;
+  }
+
+  .container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .due-date-input-container,
+  .status-input-container {
+    width: 30%;
+  }
+
+  .create-task-btn {
+    width: 30%;
+    margin-top: 35px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+}

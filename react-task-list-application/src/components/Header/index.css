@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #bf80ff;
+    height: 50px;
+    border: 1px solid #b671fa;
+    box-shadow: -3px 3px 3px #b671fa;
+    position: fixed;
+}
+.header-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+    font-size: 17px;
+    font-family: "Nunito";
+    color: #310a58;
+    font-weight: 600;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #310a58;
+}

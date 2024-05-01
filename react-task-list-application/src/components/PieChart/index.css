@@ -1,0 +1,32 @@
+* {
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+.bar {
+    font-family:  "Nunito";
+    padding-left: 60px;
+}
+
+.pie-chart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bf80ff;
+
+}
+
+.chart-container {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.heading {
+    font-family: "Nunito";
+    color: #322360;
+    padding: 15px;
+}
