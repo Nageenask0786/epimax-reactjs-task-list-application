@@ -4,7 +4,7 @@ Creating a Task List Application using ReactJs
 ### Tech Stacks Used
 1. ReactJs
 2. CSS
-3. Netlify for deployment.
+3. vercel for deployment.
 
 ### Functionality
 1. Creating a real world task application using ReactJs.
